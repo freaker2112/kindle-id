@@ -14,3 +14,5 @@ to install you can:
 2. copy "kindle-id" to ~/bin/ and add ~/bin to your PATH
 
 Make sure you make "kindle-id" executable with: chmod u+rx kindle-id
+
+You can then run the app with "kindle-id"
