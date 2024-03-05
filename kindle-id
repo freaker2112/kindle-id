@@ -25,7 +25,7 @@ echo "What is a string that every title contains? (eg. 'Vol.')"
 read findstr
 echo "looking for ASINs in $html with $findstr..."
 
-cat "$html" |grep "$findstr"|ggrep -o -P "(?<=\/product\/)B[0-9][A-Z 0-9]{8}"
+cat "$html" |grep "$findstr"|grep -o -P "(?<=\/product\/)B[0-9][A-Z 0-9]{8}"
 
 echo ""
 echo "this is a WIP!"
