@@ -1,4 +1,6 @@
 #!/bin/bash
+html=$1
+
 echo "!!! IMPORTANT !!!"
 echo "This script DOES NOT have API access to the amazon storefront!"
 echo "You MUST save a local copy of the html of the series page for your series"
@@ -9,8 +11,11 @@ echo "Please provide all paths relative to current directory"
 echo ""
 echo "Working Directory: $PWD"
 echo ""
-echo "What is the location of your html file?"
-read html
+
+if ! [ -f "$PWD/$html" ]; then
+ echo "What is the location of your html file?"
+ read html
+fi
 
 if ! [ -f "$PWD/$html" ]; then
   echo "File does not exist."
