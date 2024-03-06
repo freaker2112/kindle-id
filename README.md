@@ -10,7 +10,7 @@ The output of this script is in the order the books are displayed on the series 
 ## Installation
 to install you can either:
 
-1. copy "kindle-id" to /bin/
+1. copy "kindle-id" to /bin/\
    OR
 2. copy "kindle-id" to ~/bin/ and add ~/bin to your PATH
 
