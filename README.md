@@ -16,4 +16,6 @@ to install you can either:
 
 Make sure you make "kindle-id" executable with: chmod u+rx kindle-id
 
-You can then run the app with "kindle-id {path/to/html}"
+You can then run the app with "kindle-id {path/to/html}"\
+
+If you want to use this on macos, replace "grep" in "kindle-id" with "ggrep"
